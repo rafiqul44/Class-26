@@ -1,0 +1,58 @@
+img{
+    max-width: 100%;
+}
+/* section1 */
+
+.card-body h6{}
+.card-body p{
+    margin-top: 17px;
+}
+.card-body h1{
+    position: relative;
+}
+.card-body h1::after {
+    content: "";
+    width: 23%;
+    height: 2px;
+    left: 0;
+    top: 104%;
+    position: absolute;
+    background-color: rgb(43, 14, 150);
+}
+
+.shadow.five {
+    height: 100px;
+}
+.shadow.four {
+    height: 100px;
+}
+
+
+/* Section2 blog & news */
+.blog-news{}
+.blog-news h4{}
+.blog-news h2{
+    position: relative;
+    padding: 10px 0;
+}
+.blog-news h2::after {
+    content: "";
+    width: 12%;
+    height: 2px;
+    left: 43%;
+    top: 100%;
+    position: absolute;
+    background-color: blue;
+}
+.blog-news p{}
+
+/* footersection */
+.footer-section-bg{
+    background-color: #011828;
+}
+.logo{
+    text-align: start !important;
+}
+.logo img{
+    width: 200px;
+}
